@@ -1,0 +1,56 @@
+{
+  "customers": [
+    {
+      "text": "User",
+      "align": "start",
+      "sortable": true,
+      "value": "user"
+    },
+    { "text": "Email", "value": "email" },
+    { "text": "Title", "value": "title" },
+    { "text": "Status", "value": "status" },
+    { "text": "Transactions", "value": "transactions" },
+    { "text": "Postal Code", "value": "postal_code" },
+    {
+      "text": "Actions",
+      "value": "actions",
+      "sortable": false,
+      "readonly": true
+    }
+  ],
+  "products": [
+    {
+      "text": "Name",
+      "align": "start",
+      "sortable": false,
+      "value": "name"
+    },
+    { "text": "Price", "value": "carbs" },
+    { "text": "Category", "value": "category" },
+    { "text": "Stock", "value": "stock" },
+    { "text": "Manufacturing Country", "value": "manufacturing_country" },
+    {
+      "text": "Actions",
+      "value": "actions",
+      "sortable": false,
+      "readonly": true
+    }
+  ],
+  "orders": [
+    {
+      "text": "Name",
+      "align": "start",
+      "sortable": false,
+      "value": "name"
+    },
+    { "text": "Booked on", "value": "booked_on" },
+    { "text": "Category", "value": "category" },
+    { "text": "Received", "value": "Received" },
+    {
+      "text": "Actions",
+      "value": "actions",
+      "sortable": false,
+      "readonly": true
+    }
+  ]
+}

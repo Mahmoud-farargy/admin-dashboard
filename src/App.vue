@@ -1,32 +1,52 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <v-app id="app" :class="{'sidebar--lg--show' : getKeys.openSidebar}">
+    <!-- modals & loaders -->
+    <div v-if="pageLoading" class="loading--screen">
+      <span></span>
     </div>
-    <router-view/>
-  </div>
+    <!-- sidebar -->
+    <Sidebar />
+    <!-- different screens -->
+    <Screens />
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script >
+import Vue from 'vue';
+import Sidebar from "./components/Sidebar/Sidebar.vue";
+import Screens from "../src/components/Screens.vue";
+import { mapGetters, mapActions } from "vuex";
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default Vue.extend({
+  name: 'App',
+  data(){
+    return {
+      pageLoading: true
     }
-  }
-}
-</style>
+  },
+  components: {
+    Sidebar,
+    Screens
+  },
+  methods:{
+    ...mapActions("toggleKeys", ["mutateKeys"]),
+    onPageFinishLoading(){
+      this.pageLoading = false;
+    }
+  },
+  computed: {
+      ...mapGetters("toggleKeys", ["getKeys"]),
+  },
+  created() {
+    if((window.innerWidth || document.documentElement.offsetWidth) < 900){
+      this.mutateKeys({key: "openSidebar", val: false});
+    }
+  },
+  mounted(){
+    document.addEventListener("load", this.onPageFinishLoading, true);
+  },
+  beforeDestroy() {
+    document.removeEventListener("load", this.onPageFinishLoading, true);
+  },
+});
+</script>

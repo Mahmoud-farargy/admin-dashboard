@@ -1,0 +1,58 @@
+{
+    "notifications": {
+        "title": "notifications",
+        "badge": "#e55353",
+        "icon": "mdi-bell-outline",
+        "headTitle": "You have 5 notifications",
+        "footerTitle": "View all notifications",
+        "list": [
+            {"icon": "account-plus-outline", "title": "new user registered", "link": "#", "isExternal": false},
+            {"icon": "account-remove-outline", "title": "user deleted", "link": "#", "isExternal": false},
+            {"icon": "chart-bell-curve-cumulative", "title": "sales report is ready", "link": "#", "isExternal": false},
+            {"icon": "newspaper-plus", "title": "new client", "link": "#", "isExternal": false},
+            {"icon": "car-speed-limiter", "title": "server overloaded", "link": "#", "isExternal": false}
+        ]
+    },
+    "tasks": {
+        "title": "tasks",
+        "badge": "#f9b115",
+        "icon": "mdi-format-list-checkbox",
+        "headTitle": "You have 7 pending tasks",
+        "footerTitle": "View all tasks",
+        "list": [
+            {"icon": "handshake-outline", "title": "MGM meeting at 7 o'clock", "link": "#", "isExternal": false},
+            {"icon": "pencil-ruler", "title": "create Userflow social application design", "link": "#", "isExternal": false},
+            {"icon": "email-outline", "title": "Answer all emails", "link": "#", "isExternal": false},
+            {"icon": "earth", "title": "go to mars", "link": "#", "isExternal": false},
+            {"icon": "coffee-outline", "title": "Take a break, it's sunday", "link": "#", "isExternal": false}
+        ]
+    },
+    "messages": {
+        "title": "messages",
+        "badge": "#39f",
+        "icon": "mdi-email-open-outline",
+        "headTitle": "You have 4 new messages",
+        "footerTitle": "View all messages",
+        "list": [
+            {"icon": "email-outline", "title": "Hi, it's me John Doe...", "link": "#", "isExternal": false},
+            {"icon": "email-outline", "title": "wanna hang out on sund..", "link": "#", "isExternal": false},
+            {"icon": "email-open-outline", "title": "Aye, i went to the party w...", "link": "#", "isExternal": false},
+            {"icon": "email-open-outline", "title": "OMG can't believe what I ...", "link": "#", "isExternal": false},
+            {"icon": "email-outline", "title": "have a wonderful sund...", "link": "#", "isExternal": false}
+        ]
+    },
+    "profile": {
+        "title": "profile",
+        "badge": "",
+        "icon": "",
+        "headTitle": "",
+        "footerTitle": "",
+        "img": "user.jpeg",
+        "list": [
+            {"icon": "account-circle-outline", "title": "profile", "link": "#", "isExternal": false},
+            {"icon": "wallet-outline", "title": "my wallet", "link": "#", "isExternal": false},
+            {"icon": "cog-outline", "title": "settings", "link": "#", "isExternal": false},
+            {"icon": "logout-variant", "title": "log out", "link": "#", "isExternal": false}
+        ]
+    }
+}

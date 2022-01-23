@@ -1,0 +1,23 @@
+{
+    "list": [
+        {"icon": "gauge", "title": "dashboard", "path": "/", "isNew": true},
+        {"icon": "comment-account-outline", "title": "customers", "path": "/datatable/customers", "isNew": false},
+        {"icon": "package-variant-closed", "title": "products", "path": "/datatable/products", "isNew": false},
+        {"icon": "cart-outline", "title": "orders", "path": "/datatable/orders", "isNew": false},
+        {"icon": "message-outline", "title": "messages", "path": "",
+            "nestedList": [
+                {"path": "/blankpage/emails", "title": "emails"},
+                {"path": "/blankpage/tasks", "title": "tasks"},
+                {"path": "/blankpage/feedback", "title": "feedback"}
+            ], "isNew": false},
+        {"icon": "finance", "title": "analytics", "path": "/blankpage/analytics", "isNew": true},
+        {"icon": "format-list-bulleted", "title": "categories", "path": "/blankpage/categories", "isNew": false},
+        {"icon": "gift-outline", "title": "discount", "path": "/blankpage/discount", "isNew": false},
+        {"icon": "store-outline", "title": "inventory", "path": "/blankpage/inventory", "isNew": false},
+        {"icon": "cog-outline", "title": "settings", "path": "",
+            "nestedList": [
+                {"path": "/blankpage/screen", "title": "screen"},
+                {"path": "/blankpage/change_password", "title": "change password"}
+            ],"isNew": false}
+    ]
+}

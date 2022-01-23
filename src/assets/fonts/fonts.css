@@ -1,0 +1,143 @@
+/* RALEWAY */
+/* ==> normal */
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Thin.ttf) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-ExtraLight.ttf) format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Light.ttf) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Regular.ttf) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Medium.ttf) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-SemiBold.ttf) format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Bold.ttf) format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-ExtraBold.ttf) format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Black.ttf) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==> italic */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-ThinItalic.ttf) format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-ExtraLightItalic.ttf) format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-LightItalic.ttf) format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-Italic.ttf) format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-MediumItalic.ttf) format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-SemiBoldItalic.ttf) format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-BoldItalic.ttf) format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-ExtraBoldItalic.ttf) format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway/Raleway-BlackItalic.ttf) format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}

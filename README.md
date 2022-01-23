@@ -1,29 +1,50 @@
-# deskblock
+# Deskblock
 
-## Project setup
-```
-npm install
-```
+An admin dashboard with datatables and charts.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Built with:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [Vue.js](https://vuejs.org/v2/guide/)
+- [Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
+- [Charts.js](https://vue-chartjs.org/)
 
-### Run your unit tests
-```
-npm run test:unit
-```
+## Getting Started
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Clone project
+    ```git clone https://github.com/Mahmoud-farargy/admin-dashboard.git
+    ```
+    
+2. Install dependencies
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+   ```npm
+   install
+   ```
+
+3. Fire up the server and watch files
+
+   ```bash
+   yarn dev
+   ```
+
+## Deployment
+
+1. Start app
+   ```
+   npm run start
+   ```
+2. Test
+
+   ```
+   npm test
+   ```
+
+3. Build
+   ```
+   npm run build
+   ```
+4. Deploy!
+
+   ```
+   firebase deploy
+   ```
+
