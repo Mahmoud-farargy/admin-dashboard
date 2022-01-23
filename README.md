@@ -1,6 +1,6 @@
 # Deskblock
 
-An admin dashboard with datatables and charts.
+An admin dashboard with data tables and charts.
 
 # Preview
 <img src="./screenshots/Screenshot_1.png" alt="demo1"/>
@@ -16,7 +16,8 @@ Built with:
 ## Getting Started
 
 1. Clone project
-    ```git clone https://github.com/Mahmoud-farargy/admin-dashboard.git
+    ```
+    git clone https://github.com/Mahmoud-farargy/admin-dashboard.git
     ```
     
 2. Install dependencies
