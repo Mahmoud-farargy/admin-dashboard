@@ -2,6 +2,11 @@
 
 An admin dashboard with datatables and charts.
 
+# Preview
+<img src="./screenshots/Screenshot_1.png" alt="demo1"/>
+
+<img src="./screenshots/Screenshot_1.png" alt="demo2"/>
+
 Built with:
 
 - [Vue.js](https://vuejs.org/v2/guide/)
