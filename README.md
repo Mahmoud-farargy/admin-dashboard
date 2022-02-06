@@ -5,7 +5,7 @@ An admin dashboard with data tables and charts.
 # Preview
 <img src="./screenshots/Screenshot_1.png" alt="demo1"/>
 
-<img src="./screenshots/Screenshot_1.png" alt="demo2"/>
+<img src="./screenshots/Screenshot_2.png" alt="demo2"/>
 
 # Lighthouse test results
 <img src="./screenshots/Screenshot_lighthouse.png" alt="light house results"/>
