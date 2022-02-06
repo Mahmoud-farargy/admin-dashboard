@@ -3,6 +3,7 @@ import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
 import store from './state/store';
+import '@mdi/font/css/materialdesignicons.css';
 import "./design/index.scss";
 import 'bootstrap/dist/css/bootstrap.css';
 import vuetify from './plugins/vuetify';
