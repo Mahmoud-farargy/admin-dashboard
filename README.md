@@ -7,6 +7,9 @@ An admin dashboard with data tables and charts.
 
 <img src="./screenshots/Screenshot_1.png" alt="demo2"/>
 
+# Lighthouse test results
+<img src="./screenshots/Screenshot_lighthouse.png" alt="light house results"/>
+
 Built with:
 
 - [Vue.js](https://vuejs.org/v2/guide/)
